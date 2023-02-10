@@ -62,7 +62,7 @@ cin>>n;
 
 int sumis = sumupton (n);
 cout<<sumis;*/
-
+/*
 double a=21.09399;
 float b= 10.20;
 int c,d;
@@ -70,5 +70,8 @@ c=(int)a;
 
 cout<<c;
 
-return 0;   
+return 0;   */
+
+
+
 }  
