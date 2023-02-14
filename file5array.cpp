@@ -1,6 +1,8 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 int main(){
+
 
 /*
    int arr[10];
@@ -94,18 +96,18 @@ cout<<"enter the values of array";
 // }
 
 /*reverse an array*/
-int arr[]={1,2,3,4,5,6,7,8,9};
+// int arr[]={1,2,3,4,5,6,7,8,9};
 
-int start=0;
-int end=8;
+// int start=0;
+// int end=8;
 
-while(start<=end){
-   swap(arr[start],arr[end]);
-   start++;
-   end--;
-}
+// while(start<=end){
+//    swap(arr[start],arr[end]);
+//    start++;
+//    end--;
+// }
 
-for(int i=0;i<9;i++){
-    cout<<arr[i];
-}
+// for(int i=0;i<9;i++){
+//     cout<<arr[i];
+// }
 }
