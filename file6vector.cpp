@@ -81,6 +81,41 @@ int main(){
 // }
 
 //pair sum
+// int a [] ={1,3,5,7,2,4,6};
+
+// int sum =9;
+
+// for( int i=0; i<7;i++){
+//     for(int j=i+1;j<7;j++){
+//  if(sum ==a[i]+a[j]){
+//         cout<<a[i]<<a[j]<<" ";
+//    }
+//     }
+  
+// }
+
+//sort zero's and one's
+// int arr [] = {0,1,1,0,1,0,1,0,0};
+// int start=0;
+// int end=8;
+// int i=0;
+// while(start<end){
+//     if(arr[i]==0 ){
+//         swap(arr[i],arr[start]);
+//         i++;
+//         start++;
+//     }
+//     else if(arr[i]==1){
+//         swap(arr[i],arr[end]);
+//         end--;
+//     }
+// }
+
+// for(int i=0;i<9;i++){
+//     cout<<arr[i];
+// }
+
+
 
 }
 
