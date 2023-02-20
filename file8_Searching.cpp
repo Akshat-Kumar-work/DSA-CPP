@@ -94,30 +94,54 @@
 //       return element;
 // }
 
-int peakElement(int arr[],int size){
-     int start=0;
-     int end=size-1;
-     int mid= start+(end-start)/2;
+// int peakElement(int arr[],int size){
+//      int start=0;
+//      int end=size-1;
+//      int mid= start+(end-start)/2;
  
-     while(start<end){
+//      while(start<end){
           
-          if( arr[mid]<arr[mid+1]){
-               //search in right
-               start=mid+1;
-          }
+//           if( arr[mid]<arr[mid+1]){
+//                //search in right
+//                start=mid+1;
+//           }
 
-        else{
-          //search in left
-               end=mid;
-          }
+//         else{
+//           //search in left
+//                end=mid;
+//           }
          
-          mid= start+(end-start)/2;
-     }
+//           mid= start+(end-start)/2;
+//      }
      
-     return start;
-}
+//      return start;
+// }
+
+ /*int pivotElement(int arr[], int size){
+ int start =0;
+ int end = size-1;
+ int mid = start+(end -start)/2;
+ while(start<=end){
+      if(arr[mid]>arr[mid+1] && arr[mid+1] < size){
+           return mid;
+      }
+      else if (arr[mid-1] > arr[mid] && arr[mid-1]>=0){
+           return mid-1;
+      }
+      else if(arr[end]<=arr[mid]){
+           start = mid+1;
+      }
+      else if (arr[start]>=arr[mid]){
+           end=mid-1;
+      }
+      mid = start+(end -start)/2;
+ }
+}*/
 
 
+
+
+ 
  int main(){
 
 //linear search
@@ -188,8 +212,25 @@ int peakElement(int arr[],int size){
  
  
  //find peak element in mountain array
- int arr []={0,10,5,2};
-int size = 4;
-int element = peakElement(arr,size);
-cout<<element;
+//  int arr []={0,10,5,2};
+// int size = 4;
+// int element = peakElement(arr,size);
+// cout<<element;
+
+//find pivot element in an array
+//pivot means change
+//pivot element is an element from which the order of an continous array is break or change
+// int arr [] = {3,4,8,5,6};
+// int size = 5;
+
+// int pivot = pivotElement(arr,size);
+// cout<<pivot;
+
+
+
+//sqaure root of a no using binary search
+
+
+
+
  }
