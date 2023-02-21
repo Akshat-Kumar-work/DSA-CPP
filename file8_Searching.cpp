@@ -223,6 +223,23 @@
 // int arr [] = {3,4,8,5,6};
 // int size = 5;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // int pivot = pivotElement(arr,size);
 // cout<<pivot;
 
@@ -231,6 +248,8 @@
 //sqaure root of a no using binary search
 
 
+
+return 0;
 
 
  }
