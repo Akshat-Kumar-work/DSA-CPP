@@ -225,21 +225,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // int pivot = pivotElement(arr,size);
 // cout<<pivot;
 
@@ -248,6 +233,9 @@
 //sqaure root of a no using binary search
 
 
+
+//binary search in a nearly sorted array
+   
 
 return 0;
 
