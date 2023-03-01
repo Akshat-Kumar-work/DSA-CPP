@@ -1,6 +1,23 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+
+int moveAllNegToLeft(int arr[] , int size){
+   int neg=0;
+   int positive = size-1;
+   //dutch national flag algo
+   while(neg<positive){
+      if(arr[neg]<0){
+         neg++;
+      }
+      else if(arr[positive]>0){
+         positive--;
+      }
+      else{
+         swap(arr[neg],arr[positive]);
+      }
+   }
+}
 int main(){
 
 
@@ -110,4 +127,21 @@ cout<<"enter the values of array";
 // for(int i=0;i<9;i++){
 //     cout<<arr[i];
 // }
+
+//move all neg no to left side of array
+int a[] = {1,2,-3,4,-5,6};
+int n=6;
+ moveAllNegToLeft (a,n);
+for(int i=0;i<n;i++){
+  cout<< a[i];
 }
+
+
+
+cout<<"Engineer by Degree and Passion";
+
+return 0;
+}
+
+
+
