@@ -138,24 +138,32 @@ for(int row=1;row<=5;row++){
    cout<<endl;
 }*/
 
-int n;
-cin>>n;
+// int n;
+// cin>>n;
 
-for( int i=0; i<n;i++){
-   //spaces 
-   for(int j=0; j<n-i-1 ; i++){
-      cout<<" ";
+// for( int i=0; i<n;i++){
+//    //spaces 
+//    for(int j=0; j<n-i-1 ; i++){
+//       cout<<" ";
+//    }
+
+
+
+
+//    int start =i+1;
+//    for(int j=0; j< i+1; j++){
+//      cout<< " ";
+//     start++;
+//    }
+//    cout<<endl; 
+// }
+
+
+int n =5;
+for(int i=0;i<=n ;i++){
+   for(int j =0; j<i;j++){
+      cout<<"*";
    }
-
-
-
-
-   int start =i+1;
-   for(int j=0; j< i+1; j++){
-     cout<< " ";
-    start++;
-   }
-   cout<<endl; 
+   cout<<" ";
 }
-
 }

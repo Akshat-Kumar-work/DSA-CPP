@@ -117,7 +117,7 @@
 //      return start;
 // }
 
- /*int pivotElement(int arr[], int size){
+int pivotElement(int arr[], int size){
  int start =0;
  int end = size-1;
  int mid = start+(end -start)/2;
@@ -128,15 +128,16 @@
       else if (arr[mid-1] > arr[mid] && arr[mid-1]>=0){
            return mid-1;
       }
-      else if(arr[end]<=arr[mid]){
+      else if(arr[mid]>arr[start]){
            start = mid+1;
       }
-      else if (arr[start]>=arr[mid]){
+      else /* if(arr[start]>arr[mid])*/{
            end=mid-1;
       }
+
       mid = start+(end -start)/2;
  }
-}*/
+}
 
 
 
@@ -218,23 +219,23 @@
 // cout<<element;
 
 //find pivot element in an array
-//pivot means change
+// pivot means change
 //pivot element is an element from which the order of an continous array is break or change
-// int arr [] = {3,4,8,5,6};
-// int size = 5;
+int arr [] = {1,2,3,8,6};
+int size = 5;
 
 
 
-// int pivot = pivotElement(arr,size);
-// cout<<pivot;
+int pivot = pivotElement(arr,size);
+cout<<arr[pivot];
 
 
 
-//sqaure root of a no using binary search
+// sqaure root of a no using binary search
 
 
 
-//binary search in a nearly sorted array
+// binary search in a nearly sorted array
    
 
 return 0;
